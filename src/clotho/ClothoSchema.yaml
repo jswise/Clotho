@@ -1,0 +1,55 @@
+tables:
+  BatchActivity:
+    RelationshipID: str
+    BatchID: str
+    ActivityID: str
+  Activity:
+    ActivityID: str
+    ToolID: str
+    ToolName: str
+    ToolPath: str
+    ToolVersion: str
+    StartTime: str
+    EndTime: str
+    Duration: str
+    Succeeded: bool
+    Message: str
+  ActivityIO:
+    IOID: str
+    ActivityID: str
+    ParamID: str
+    ParamName: str
+    Value: str
+    IsResource: bool
+    IsInput: bool
+    IsRead: bool
+    IsWrite: bool
+  Resources:
+    ResourceID: str
+    Name: str
+    Path: str
+    Parent: str
+  ToolParams:
+    ParamID: str
+    ToolID: str
+    Name: str
+    Value: str
+    FeederToolName: str
+    FeederParamName: str
+    IsResource: bool
+    IsInput: bool
+    IsRead: bool
+    IsWrite: bool
+  Tools:
+    ToolID: str
+    Name: str
+    Path: str
+  ToolOutputs:
+    OutputID: str
+    ToolID: str
+    OutputOrder: int
+    Name: str
+  ToolPredecessors:
+    RelationshipID: str
+    ToolID: str
+    PredecessorID: str
