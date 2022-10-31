@@ -1,0 +1,32 @@
+resources:
+  drive:
+    path: "C:"
+    # ResourceID: 
+  temp folder:
+    path: temp
+    parent: drive
+  new:
+    path: asdf
+
+tools:
+  Hello:
+    path: GetHello
+    params:
+      response:
+        isinput: false
+  Get TAPI Employees:
+    path: get_tapi_data
+    params:
+      endpoint:
+        value: https://devapi.terracon.com/employees/
+      query:
+        value:
+          FullName: wise
+      output_csv:
+        value: C:\Temp\Employees.csv
+  Crunch Data:
+    params:
+      Input 1:
+        IsInput: true
+    predecessors:
+      Do Nothing: null

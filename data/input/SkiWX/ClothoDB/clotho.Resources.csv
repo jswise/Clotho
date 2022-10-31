@@ -1,0 +1,14 @@
+ResourceID,Name,Path,FormatCode,Parent
+d0237dbb-eb49-11ec-9450-a44cc83e0d72,Demo folder,C:\Users\jswise\TerraconPython\ClothoDemo,,
+d02f156f-eb49-11ec-9d29-a44cc83e0d72,METAR GZ,,,d0237dbb-eb49-11ec-9450-a44cc83e0d72
+d031d5e7-eb49-11ec-a749-a44cc83e0d72,METAR CSV,,,d0237dbb-eb49-11ec-9450-a44cc83e0d72
+d0335c50-eb49-11ec-8810-a44cc83e0d72,Weather URI,https://www.aviationweather.gov/adds/dataserver_current/current/metars.cache.csv.gz,,
+d0353015-eb49-11ec-8b2f-a44cc83e0d72,Ski area URI,https://www.nohrsc.noaa.gov/data/vector/master/ski_areas_all.tar.gz,,
+d037f078-eb49-11ec-9317-a44cc83e0d72,Ski area GZ,SkiAreas.tar.gz,,d0237dbb-eb49-11ec-9450-a44cc83e0d72
+d03b4a7d-eb49-11ec-aedc-a44cc83e0d72,Ski area shapefile,ski_areas_all.shp,,d0237dbb-eb49-11ec-9450-a44cc83e0d72
+d0402c7e-eb49-11ec-8107-a44cc83e0d72,Weather DB,SkiWeather.sqlite,,d0237dbb-eb49-11ec-9450-a44cc83e0d72
+d044738a-eb49-11ec-a4a6-a44cc83e0d72,WxStations,WxStations,,d0402c7e-eb49-11ec-8107-a44cc83e0d72
+d047f4b9-eb49-11ec-be5f-a44cc83e0d72,METARs,METARs,,d0402c7e-eb49-11ec-8107-a44cc83e0d72
+d04cafc6-eb49-11ec-ab78-a44cc83e0d72,SkiAreas,SkiAreas,,d0402c7e-eb49-11ec-8107-a44cc83e0d72
+d0541729-eb49-11ec-b824-a44cc83e0d72,SkiAreaWxStations,SkiAreaWxStations,,d0402c7e-eb49-11ec-8107-a44cc83e0d72
+d0584b85-eb49-11ec-9fdd-a44cc83e0d72,Area METARs,,,d0237dbb-eb49-11ec-9450-a44cc83e0d72

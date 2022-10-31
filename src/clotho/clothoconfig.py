@@ -7,9 +7,9 @@ import yaml
 
 from clotho.clothodb import ClothoDB
 from clotho.errors import ClothoError
+from clotho.logutils import raise_error
 from clotho.resource import Resource
 from clotho.tool import Tool
-from clotho.logutils import raise_error
 
 
 class ClothoConfig:

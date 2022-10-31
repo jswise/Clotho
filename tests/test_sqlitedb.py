@@ -5,9 +5,9 @@ import sqlite3
 import pandas as pd
 import pytest
 
+from clotho.logutils import start_logging
 from clotho.sqlitedb import SQLiteDB
 import dbtesthelpers
-from clotho.logutils import start_logging
 
 DATA_FOLDER = pathlib.Path(__file__).parents[1] / 'data'
 INPUT_FOLDER = DATA_FOLDER / 'input'
@@ -22,7 +22,7 @@ def victim():
 
 def create_db():
     if DB.exists():
-        os.unlink(DB)
+        DB.unlink()
     df = pd.DataFrame(
         {
             'FruitID': [0, 1, 2],

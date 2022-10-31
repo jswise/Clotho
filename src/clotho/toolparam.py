@@ -3,10 +3,10 @@
 import uuid
 
 from clotho.clothodb import ClothoDB
+from clotho.logutils import raise_error
 from clotho.resource import Resource
 from clotho.utils import fill_config
 from clotho.utils import get_case_insensitive
-from clotho.logutils import raise_error
 
 class ToolParam:
     """Represents a tool parameter configuration."""

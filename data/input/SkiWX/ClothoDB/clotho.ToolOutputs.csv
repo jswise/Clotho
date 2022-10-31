@@ -1,0 +1,18 @@
+OutputID,ToolID,OutputOrder,Name
+d061c16a-eb49-11ec-94c8-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,0,batch_id
+d062f9e7-eb49-11ec-af72-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,1,output_file
+d06df67b-eb49-11ec-a3f2-a44cc83e0d72,d0662e39-eb49-11ec-b430-a44cc83e0d72,0,batch_id
+d06ee0d6-eb49-11ec-a749-a44cc83e0d72,d0662e39-eb49-11ec-b430-a44cc83e0d72,1,output_path
+d0781f01-eb49-11ec-820b-a44cc83e0d72,d071dd70-eb49-11ec-a95f-a44cc83e0d72,0,batch_id
+d0793070-eb49-11ec-bcb9-a44cc83e0d72,d071dd70-eb49-11ec-a95f-a44cc83e0d72,1,Weather Stations
+d08406c7-eb49-11ec-bb5c-a44cc83e0d72,d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,0,batch_ids
+d085176c-eb49-11ec-81a2-a44cc83e0d72,d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,1,METARs
+d08dcb2e-eb49-11ec-a9c7-a44cc83e0d72,d087b090-eb49-11ec-90de-a44cc83e0d72,0,batch_ids
+d08edb75-eb49-11ec-994c-a44cc83e0d72,d087b090-eb49-11ec-90de-a44cc83e0d72,1,gz
+d098a08b-eb49-11ec-96b7-a44cc83e0d72,d091c196-eb49-11ec-9871-a44cc83e0d72,0,batch_id
+d0a2ffb2-eb49-11ec-befa-a44cc83e0d72,d09b8639-eb49-11ec-b2a7-a44cc83e0d72,0,batch_id
+d0a8a686-eb49-11ec-962c-a44cc83e0d72,d0a54ae9-eb49-11ec-a2fb-a44cc83e0d72,0,batch_id
+d0aee6cc-eb49-11ec-a691-a44cc83e0d72,d0aaef07-eb49-11ec-9152-a44cc83e0d72,0,batch_id
+d0c2e3d7-eb49-11ec-b281-a44cc83e0d72,d0b66121-eb49-11ec-92b3-a44cc83e0d72,0,batch_ids
+d0d0c692-eb49-11ec-814f-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,0,batch_id
+d0d1ff1d-eb49-11ec-8071-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,1,area_metars

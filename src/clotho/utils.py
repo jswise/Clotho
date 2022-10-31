@@ -9,7 +9,6 @@ import yaml
 import pandas as pd
 
 from clotho.errors import ClothoError
-from clotho.logutils import raise_error
 
 
 def condition(column, value):
@@ -206,7 +205,7 @@ def get_time_string(time_obj):
         return time_obj.strftime('%Y-%m-%d %H:%M:%S')
     if isinstance(time_obj, timedelta):
         return str(time_obj).split('.', 2)[0]
-    raise_error('Attempted to convert unrecognized time object.', ClothoError)
+    raise_error('Attempted to convert unrecognized time object.')
 
 
 def get_schema_templates():

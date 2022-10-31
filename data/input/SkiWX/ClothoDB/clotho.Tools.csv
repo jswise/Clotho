@@ -1,0 +1,13 @@
+ToolID,Name,Path
+d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,Download Weather,clotho.demos.tools.download_metars
+d0662e39-eb49-11ec-b430-a44cc83e0d72,Extract Weather,clotho.demos.tools.extract_metars
+d071dd70-eb49-11ec-a95f-a44cc83e0d72,Build Weather Stations,clotho.demos.tools.build_wx_stations
+d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,Import METARs,clotho.demos.tools.import_metars
+d087b090-eb49-11ec-90de-a44cc83e0d72,Download Ski Areas,clotho.demos.tools.download
+d091c196-eb49-11ec-9871-a44cc83e0d72,Extract Ski Areas,clotho.demos.tools.extract_ski_areas
+d09b8639-eb49-11ec-b2a7-a44cc83e0d72,Import Ski Areas,clotho.demos.tools.import_ski_areas
+d0a54ae9-eb49-11ec-a2fb-a44cc83e0d72,Do Nothing,clotho.demos.tools.do_nothing
+d0aaef07-eb49-11ec-9152-a44cc83e0d72,Fiddle Ski Areas,clotho.demos.tools.fiddle_data
+d0b131bb-eb49-11ec-a561-a44cc83e0d72,Break Things,clotho.demos.tools.throw_error
+d0b66121-eb49-11ec-92b3-a44cc83e0d72,Match Ski Areas,clotho.demos.tools.match_ski_areas
+d0c66647-eb49-11ec-83bf-a44cc83e0d72,Export Area METARs,clotho.demos.tools.export_area_metars

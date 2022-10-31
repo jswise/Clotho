@@ -6,8 +6,8 @@ import pandas as pd
 
 from clotho.clothodb import ClothoDB
 from clotho.errors import ClothoError
-import dbtesthelpers
 from clotho.logutils import start_logging
+import dbtesthelpers
 import test_sqlitedb
 
 

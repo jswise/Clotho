@@ -1,0 +1,34 @@
+ParamID,ToolID,Name,Value,IsResource,IsInput,IsRead,IsWrite
+d05ba6eb-eb49-11ec-86fd-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,uri,Weather URI,True,True,True
+d05d0674-eb49-11ec-a78f-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,output_folder,Demo folder,True,True,,
+d05e17e5-eb49-11ec-8e3b-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,min_interval,15,,True,,
+d05f2970-eb49-11ec-9c8e-a44cc83e0d72,d05ae3a3-eb49-11ec-91a9-a44cc83e0d72,output_file,METAR GZ,True,False,,1.0
+d066f190-eb49-11ec-9138-a44cc83e0d72,d0662e39-eb49-11ec-b430-a44cc83e0d72,gz_file,METAR GZ,True,True,True,
+d0682a09-eb49-11ec-af83-a44cc83e0d72,d0662e39-eb49-11ec-b430-a44cc83e0d72,min_interval,15,,True,,
+d06989a4-eb49-11ec-8f1f-a44cc83e0d72,d0662e39-eb49-11ec-b430-a44cc83e0d72,output_path,METAR CSV,True,False,,1.0
+d072a0c1-eb49-11ec-ba12-a44cc83e0d72,d071dd70-eb49-11ec-a95f-a44cc83e0d72,metar_csv,METAR CSV,True,True,True,
+d073b229-eb49-11ec-bca6-a44cc83e0d72,d071dd70-eb49-11ec-a95f-a44cc83e0d72,db,Weather DB,True,True,,
+d074c3a4-eb49-11ec-b720-a44cc83e0d72,d071dd70-eb49-11ec-a95f-a44cc83e0d72,Weather Stations,WxStations,True,False,,1.0
+d07d0101-eb49-11ec-8a90-a44cc83e0d72,d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,metar_csv,METAR CSV,True,True,True,
+d07e60aa-eb49-11ec-8d6c-a44cc83e0d72,d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,db,Weather DB,True,True,,
+d07f9956-eb49-11ec-b42c-a44cc83e0d72,d07c3dbd-eb49-11ec-9c79-a44cc83e0d72,METARs,METARs,True,False,,1.0
+d08873b5-eb49-11ec-8d0a-a44cc83e0d72,d087b090-eb49-11ec-90de-a44cc83e0d72,uri,Ski area URI,True,True,,
+d089ab69-eb49-11ec-a95b-a44cc83e0d72,d087b090-eb49-11ec-90de-a44cc83e0d72,output_path,Ski area GZ,True,True,,1.0
+d08ae3bc-eb49-11ec-9195-a44cc83e0d72,d087b090-eb49-11ec-90de-a44cc83e0d72,overwrite,False,,True,,
+d092ad69-eb49-11ec-942d-a44cc83e0d72,d091c196-eb49-11ec-9871-a44cc83e0d72,tar_file,Ski area GZ,True,True,True,
+d093e49f-eb49-11ec-ba39-a44cc83e0d72,d091c196-eb49-11ec-9871-a44cc83e0d72,output_path,Demo folder,True,True,,
+d0954473-eb49-11ec-98a5-a44cc83e0d72,d091c196-eb49-11ec-9871-a44cc83e0d72,ski_shp,Ski area shapefile,True,True,,1.0
+d09c9725-eb49-11ec-8015-a44cc83e0d72,d09b8639-eb49-11ec-b2a7-a44cc83e0d72,ski_shp,Ski area shapefile,True,True,True,
+d09e1f0a-eb49-11ec-bb5f-a44cc83e0d72,d09b8639-eb49-11ec-b2a7-a44cc83e0d72,db,Weather DB,True,True,,
+d09f7ea0-eb49-11ec-b121-a44cc83e0d72,d09b8639-eb49-11ec-b2a7-a44cc83e0d72,SkiAreas,SkiAreas,True,True,,1.0
+d0a6340a-eb49-11ec-8f38-a44cc83e0d72,d0a54ae9-eb49-11ec-a2fb-a44cc83e0d72,data_path,SkiAreas,True,True,True,1.0
+d0abb3ad-eb49-11ec-bf95-a44cc83e0d72,d0aaef07-eb49-11ec-9152-a44cc83e0d72,data_path,SkiAreas,True,True,True,1.0
+d0b74b1b-eb49-11ec-b74d-a44cc83e0d72,d0b66121-eb49-11ec-92b3-a44cc83e0d72,db,Weather DB,True,True,,
+d0b8f8c2-eb49-11ec-92cf-a44cc83e0d72,d0b66121-eb49-11ec-92b3-a44cc83e0d72,Weather Stations,WxStations,True,True,True,
+d0ba7f6d-eb49-11ec-917b-a44cc83e0d72,d0b66121-eb49-11ec-92b3-a44cc83e0d72,SkiAreas,SkiAreas,True,True,True,
+d0bc7b63-eb49-11ec-ae25-a44cc83e0d72,d0b66121-eb49-11ec-92b3-a44cc83e0d72,SkiAreaWxStations,SkiAreaWxStations,True,True,,1.0
+d0c750aa-eb49-11ec-8f6a-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,db,Weather DB,True,True,,
+d0c88928-eb49-11ec-9aaa-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,output_folder,Demo folder,True,True,,
+d0c9c1a3-eb49-11ec-b644-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,METARs,METARs,True,True,True,
+d0cb214d-eb49-11ec-b28e-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,SkiAreaWxStations,SkiAreaWxStations,True,True,True,
+d0cc59c3-eb49-11ec-85b8-a44cc83e0d72,d0c66647-eb49-11ec-83bf-a44cc83e0d72,area_metars,Area METARs,True,False,,1.0
