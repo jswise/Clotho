@@ -87,7 +87,8 @@ class Tool:
         param_configs = {}
         for name, param in self.params.items():
             param_configs[name] = param.config
-            param_configs[name].pop('ToolID')
+            if 'ToolID' in param_configs[name]:
+                param_configs[name].pop('ToolID')
         output_config['params'] = param_configs
 
         preds = {}
@@ -397,7 +398,7 @@ class Tool:
                         ),
                         ClothoToolError
                     )
-            val = kwargs.get(name, param.value)
+            val = kwargs.get(name, param.value) or param.value
             if isinstance(val, str):
                 if val.lower() == 'true':
                     val = True

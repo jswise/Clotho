@@ -65,7 +65,8 @@ class ClothoDB:
         df = self._db.get(table_name, query)
         if df is None:
             return
-        return df.replace(np.nan, None)
+        # df = df.replace(np.nan, None)
+        return df
 
     def get_columns(self, table_name):
         """Get a list of column names for a table.
